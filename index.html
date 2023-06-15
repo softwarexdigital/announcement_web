@@ -8,37 +8,67 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      height: 150vh;
       text-align: center;
+      background-color: #f4f4f4;
     }
 
     .container {
-      max-width: 800px;
-      padding: 20px;
-      background-color: #f0f0f0;
+      max-width: 700px;
+      padding: 35px;
+      background-color: #fff;
       border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     h1 {
       color: #333;
-      font-size: 30px;
+      font-size: 28px;
       margin-bottom: 20px;
     }
 
     p {
       color: #777;
-      font-size: 20px;
-      margin-bottom: 20px;
+      font-size: 18px;
+      margin-bottom: 15px;
+      line-height: 1.5;
     }
 
     a {
-      color: #007bff;
-      text-decoration: underline;
-      font-size: 24px;
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 20px; /* Updated font size */
+      padding: 15px 25px; /* Updated padding */
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    a::before {
+      display: inline-block;
+      margin-right: 5px;
+    }
+
+    a:hover {
+      background-color: #0056b3;
     }
 
     .red-word {
       color: red;
+      font-weight: bold;
+    }
+
+    .image-wrapper {
+      margin: 20px 0;
+    }
+
+    .image-wrapper img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     .note {
@@ -46,36 +76,28 @@
       font-size: 14px;
       margin-top: 20px;
     }
-
-    .btn {
-      display: inline-block;
-      background-color: #28a745;
-      color: #fff;
-      font-size: 20px;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-decoration: none;
-      margin-top: 20px;
-    }
-
-    .btn::before {
-      content: "\260E\fe0f";
-      display: inline-block;
-      margin-right: 5px;
-    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Website Announcement</h1>
     <p><span class="red-word">This website has been changed. Please visit the new website:</span></p>
-    <a href="https://pandora-vercel-lovat.vercel.app/">https://pandora-vercel-lovat.vercel.app/</a>
-    <p></p>
-    <a href="https://chat.zhile.io">https://chat.zhile.io</a>
-    <h2>LOGIN WITH PREVIOUS ACCESS TOKEN</h2>
+    <bold><a href="https://shopee.softwaredigital.store">https://shopee.softwaredigital.store</a></bold>
+    <p>Login with your previous access token.</p>
+    <hr>
+    <h1><span class="red-word">Beware of Scammers/Resellers:</span></h1>
+    <h1><span class="red-word">[all_digital] & [software_key] & [spacegems.inc]</span></h1>
+    <div class="image-wrapper">
+      <img src="https://shopee.softwaredigital.store/beware.png" alt="Beware">
+    </div>
+    <h2 style="color: orangered;">Only and One Official Shopee Store:</h2>
+    <a href="https://shopee.com.my/softwaredigital.os">Shopee: softwaredigital.os</a>
 
+    <h2 style="color: green">JOIN OFFICIAL WHATSAPP GROUP</h2>
+
+    <a href="https://chat.whatsapp.com/BU2LjXTAhj7FmuFMPsOOwj">Join Now (softwaredigital.os)</a>
     <p class="note">Note: This announcement is by Software Digital Admin.</p>
-    <a class="btn" href="https://chat.whatsapp.com/BU2LjXTAhj7FmuFMPsOOwj">Join WhatsApp Group for more latest info</a>
+
   </div>
 </body>
 </html>
